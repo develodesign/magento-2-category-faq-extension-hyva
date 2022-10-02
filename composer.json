@@ -1,6 +1,6 @@
 {
     "name": "develodesign/magento-2-module-categoryfaqextension",
-    "description": "Shows Land of Coder FAQ's in the Magento Category",
+    "description": "Displays the Land of Coder FAQ category accordian at the bottom of the Magento Category page, including FAQ Schema (FAQPage, Question, Answer) structured data markup. Hyvä compatible",
     "type": "magento2-module",
     "license": "GPL-3.0",
     "authors": [
