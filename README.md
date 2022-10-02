@@ -20,22 +20,27 @@ Requires the Free FAQ module https://landofcoder.com/faq-extension-for-magento2.
 
 
 ## Installation
-\* = in production please use the `--keep-generated` option
+\* = in production please use the option `--keep-generated` 
 
-### Type 1: Zip file
+
+### Composer
+
+ ```
+ composer require develodesign/magento-2-module-categoryfaqextension`
+
+ bin/magento module:enable Develodesign_CategoryFaqExtension`
+ 
+ bin/magento setup:upgrade
+ 
+ bin/magento cache:flush
+```
+
+### Zip file
 
  - Unzip the zip file in `app/code/Develodesign`
  - Enable the module by running `php bin/magento module:enable Develodesign_CategoryFaqExtension`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
-
-### Type 2: Composer
-
- - Install the module composer by running `composer require develodesign/magento-2-module-categoryfaqextension`
- - enable the module by running `php bin/magento module:enable Develodesign_CategoryFaqExtension`
- - apply database updates by running `php bin/magento setup:upgrade`\*
- - Flush the cache by running `php bin/magento cache:flush`
-
 
 ## Configuration
 Edit your Magento categories and select which FAQ category should be used. 
