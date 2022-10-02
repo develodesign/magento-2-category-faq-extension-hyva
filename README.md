@@ -10,7 +10,7 @@
 
 
 ## Main Functionalities
-Shows Land of Coder FAQ's in the Magento Category page, link your Magento categories and FAQ categories and a FAQ accordian will be shown at the bottom of the Category page including FAQ Schema (FAQPage, Question, Answer) structured data markup.
+Displays a Land of Coder FAQ accordian at the bottom of the Magento Category page, including FAQ Schema (FAQPage, Question, Answer) structured data markup. Hyvä compatible
 
 Requires the Free FAQ module https://landofcoder.com/faq-extension-for-magento2.html
 
