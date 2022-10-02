@@ -26,12 +26,9 @@ Requires the Free FAQ module https://landofcoder.com/faq-extension-for-magento2.
 ### Composer
 
  ```
- composer require develodesign/magento-2-module-categoryfaqextension`
-
- bin/magento module:enable Develodesign_CategoryFaqExtension`
- 
+ composer require develodesign/magento-2-module-categoryfaqextension
+ bin/magento module:enable Develodesign_CategoryFaqExtension
  bin/magento setup:upgrade
- 
  bin/magento cache:flush
 ```
 
