@@ -1,0 +1,22 @@
+{
+    "name": "develodesign/magento-2-module-categoryfaqextension",
+    "description": "Shows Land of Coder FAQ's in the Magento Category",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Luke Collymore",
+            "email": "luke@develodesign.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Develodesign\\CategoryFaqExtension\\": ""
+        }
+    }
+}
