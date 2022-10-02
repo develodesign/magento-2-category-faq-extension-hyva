@@ -2,6 +2,7 @@
     "name": "develodesign/magento-2-module-categoryfaqextension",
     "description": "Displays a FAQ accordian at the bottom of the Magento Category page from a linked FAQ category, including FAQ Schema (FAQPage, Question, Answer) structured data markup for SEO. Hyvä compatible.",
     "type": "magento2-module",
+    "version": "1.1",
     "license": "GPL-3.0",
     "authors": [
         {
