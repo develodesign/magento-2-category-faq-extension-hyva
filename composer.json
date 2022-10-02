@@ -1,6 +1,6 @@
 {
     "name": "develodesign/magento-2-module-categoryfaqextension",
-    "description": "Displays the Land of Coder FAQ category accordian at the bottom of the Magento Category page, including FAQ Schema (FAQPage, Question, Answer) structured data markup. Hyvä compatible",
+    "description": "Displays a FAQ accordian at the bottom of the Magento Category page from a linked FAQ category, including FAQ Schema (FAQPage, Question, Answer) structured data markup for SEO. Hyvä compatible.",
     "type": "magento2-module",
     "license": "GPL-3.0",
     "authors": [
