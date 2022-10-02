@@ -1,16 +1,14 @@
 # Magento 2 Module for showing Landofcoder FAQs on the Hyvä category page including Schema markup
 
-   develodesign/magento-2-module-categoryfaqextension
-
+ 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
  - [Configuration](#markdown-header-configuration)
- - [Specifications](#markdown-header-specifications)
  - [Attributes](#markdown-header-attributes)
 
 
-## Main Functionalities
-Displays a Land of Coder FAQ accordian at the bottom of the Magento Category page, including FAQ Schema (FAQPage, Question, Answer) structured data markup. Hyvä compatible
+
+Displays a FAQ accordian at the bottom of the Magento Category page from a linked FAQ category, including FAQ Schema (FAQPage, Question, Answer) structured data markup for SEO. Hyvä compatible.
 
 Requires the Free FAQ module https://landofcoder.com/faq-extension-for-magento2.html
 
