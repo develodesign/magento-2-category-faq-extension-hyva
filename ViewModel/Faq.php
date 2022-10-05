@@ -17,12 +17,12 @@ class Faq implements ArgumentInterface
      * Load a collection of FAQ questions associated with the current category
      * @return \Lof\Faq\Model\ResourceModel\Question\Collection | []
      */
-    public function getFaqCollection() : \Lof\Faq\Model\ResourceModel\Question\Collection {
+    public function getFaqCollection() : \Lof\Faq\Model\ResourceModel\Question\Collection | array {
 
         $currentCategory = $this->registry->registry('current_category');
 
-        if($currentCategory){
-            $categoryId = (int) $this->registry->registry('current_category')->getFaqCategory();
+        if($currentCategory && $currentCategory->getFaqCategory()){
+            $categoryId = $currentCategory->getFaqCategory();
             $questionCollection = $this->questionFactory->getCollection();
             $questionCollection->setPageSize(10);
             $questionCollection->addFieldToFilter('is_active',1);
