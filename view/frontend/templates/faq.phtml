@@ -10,7 +10,7 @@ $heroiconsSolid = $viewModels->require(HeroiconsSolid::class);
 ?>
 
 <?php if (count($faqs)) : ?>
-    <div class="w-full" itemscope itemtype="https://schema.org/FAQPage">
+    <div class="w-full mb-10" itemscope itemtype="https://schema.org/FAQPage">
         <h2 class="max-w-xl mx-auto pb-4 pt-10 pt-6 text-center text-xl"><?= __('Frequently Asked Questions') ?></h2>
         <div class="bg-white max-w-xl mx-auto border border-gray-200" x-data="{selected:<?= count($faqs) ?>}">
             <ul class="shadow-box">
